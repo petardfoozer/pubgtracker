@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+        <title>Surebert &trade; Javascript Toolkit</title>
+        <meta name="description" content="Paul Visco's Surebert &trade; is a complete solution for developing highly interactive javascript based client side applications. Surebert handles most of the inconsistencies between the major browsing platforms (IE, firefox and Safari) allowing the programmer to concentrate on what they want to accomplish instead of the tedious labor of how to make their code work in all the browsers. Surebert's style of javascripting encourages a clean separation of content, design and interactive scripting - making script upkeep, sharing, and debugging easier to handle. Surebert has been continuously developed and tested since September of 2004." />
+        <meta name="keywords" content="surebert, paul visco, ajax, toolkit, javascript, oop" />
+        <meta name="author" content="Paul Visco http://paul.estrip.org" />
+        <style type="text/css" >
+          @import '/css/app.css';
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>Example Surebert Framework Project</h1>
+             <a href="http://surebert.com"><img id="logo" src="http://surebert.com/media/images/banner.png" width="600px" height="97px" /></a>
+            
+            <div id="wrapper_inner">
+           <p>This page is ugly on purpose.  You should get rid of it.</p>
+            <ol>
+                <li>
+                    <p>Make sure you have a copy of the surebert framework on your server.  It is usually found in <b>/var/www/sbf</b>  For more info see the <a href="http://wiki.surebert.com/index.php/Framework:SBF_Deployment_Guide">surebert framework deployment guide</a>.</p>
+                    <p>If you have deployed the framework elsewhere or wish to specify a certain tag, set the SUREBERT_FRAMEWORK_SB_PATH and SUREBERT_TOOLKIT_PATH constants in /private/config/definitions.php to where sbf is deployed at.
+                            <pre>
+define("SUREBERT_FRAMEWORK_SB_PATH", "/some/other/path/sb/tags/1.65");
+OR
+define("SUREBERT_FRAMEWORK_SB_PATH", "/var/www/sbf/sb/tags/1.65");
+                            </pre>
+                            </p>
+                </li>
+
+                <li>
+                    <p>In order to get rid of this page, uncomment the following line in /public/.htaccess 
+                    <pre>#RewriteRule .* index.html</pre>
+                    </p>
+                </li>
+
+            </ol>
+            
+            <p>After that, your site should now be ready and you can refresh this page!  Read up on the surebert framework and toolkit @ <a href="http://surebert.com">surebert.com</a> and on the <a href="http://wiki.surebert.com">surebert wiki</a> </p>
+            <p> If you have questions you can email paul.visco AT roswellpark.org</p>
+            </div> 
+        </div>
+    </body>
+</html>
