@@ -5,7 +5,8 @@
     "require": {
         "php": ">=5.6",
         "surebert/framework": "dev-master",
-        "lifeformwp/php-pubg": "dev-master"
+        "lifeformwp/php-pubg": "dev-master",
+        "samiaraboglu/pubg-php-api": "dev-master"
     },
     "license": "MIT",
     "authors": [
